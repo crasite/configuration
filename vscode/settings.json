@@ -1,0 +1,67 @@
+{
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<space>",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-t>": false
+  },
+  "latex-workshop.view.pdf.viewer": "tab",
+  "editor.minimap.enabled": true,
+  "vim.easymotion": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s"],
+      "after": ["<leader>", "<leader>", "2", "s"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.terminal.focus"]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s"],
+      "after": ["<leader>", "<leader>", "2", "s"]
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "python.jediEnabled": false,
+  "python.pythonPath": "C:\\Users\\tpcra\\anaconda3\\envs\\training19-env\\python.exe",
+  "python.languageServer": "Microsoft",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.semanticHighlighting.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "rust.wait_to_build": 100,
+  "editor.tabSize": 2,
+  "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\]|todo!)",
+  "markdown-pdf.displayHeaderFooter": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "remote.SSH.remotePlatform": {
+    "101.109.169.210": "linux",
+    "101.109.239.96": "linux",
+    "101.108.131.175": "linux"
+  },
+  "window.zoomLevel": 1,
+  "git.enableSmartCommit": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "dart.checkForSdkUpdates": false
+}
